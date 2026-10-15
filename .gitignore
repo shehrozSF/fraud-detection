@@ -1,0 +1,11 @@
+data/*
+!data/.gitkeep
+results/figures/*.png
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+*.pkl
+*.joblib
+docs/
