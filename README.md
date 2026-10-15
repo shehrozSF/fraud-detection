@@ -178,14 +178,6 @@ whole pipeline flattened into one self-contained script for a Kaggle kernel,
 with a `SAMPLE_ROWS` knob that systematically thins the rows while keeping the
 timeline intact. The committed `results.csv` came from it.
 
-## The guide
-
-[docs/ML_Through_Fraud_Detection.pdf](docs/ML_Through_Fraud_Detection.pdf) —
-a 28-page walkthrough that teaches the ML concepts behind each phase
-(classification, PR-AUC vs. ROC-AUC, leakage, cost-based thresholds, boosting,
-resampling, leak-safe features) against this repo's code and its actual
-numbers, with exercises per chapter.
-
 ## Layout
 
 ```
@@ -200,7 +192,6 @@ src/
 notebooks/      01-06, the phases in order
 kaggle/         the same pipeline as one self-contained script
 scripts/        smoke_test.py, to_ipynb.py
-docs/           the teaching guide (PDF)
 data/
   raw/          the Kaggle download (gitignored)
   interim/      locked split indices, tuned params, cached predictions
